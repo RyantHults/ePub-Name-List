@@ -1,0 +1,3 @@
+ebooklib
+spacy
+beautifulsoup4
