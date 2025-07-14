@@ -1,5 +1,5 @@
 # ePub-Name-List
-This is a python script that generates a list of all unique names from all *.epub books in the `books-to-read` folder using [SpaCy language models](https://spacy.io/models/en/).  Note, this is just a rough first-pass and definintely still requires some manual cleanup. 
+This is a python script that generates a list of all unique names from all *.epub books in the `books-to-read` folder using [SpaCy language models](https://spacy.io/models/en/).  
 
 ## How to run
 1. install requirements
@@ -19,4 +19,4 @@ nlp = spacy.load('en_core_web_lg')
 ```
 python.exe extract_named_characters.py
 ```
-This will generate a file called `named_characters.txt` in the current working directory
+This will generate a file called `named_characters.txt` in the current working directory. Note, this is just a rough first-pass and definintely still requires some manual cleanup. 
