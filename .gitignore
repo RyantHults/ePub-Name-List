@@ -1,6 +1,6 @@
 # eBook files
 *.epub
-*.identifier
+*.epub:Zone.Identifier
 
 # Output files
 named_characters.txt
