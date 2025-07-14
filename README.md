@@ -14,8 +14,8 @@ python -m spacy download en_core_web_lg
 ```
 nlp = spacy.load('en_core_web_lg')
 ```
-3. place all books you'd like to analyze in the `books-to-read` folder. They must be in epub format.
-4. run the script. This will generate a file called `named_characters.txt` in the current working directory
+4. place all books you'd like to analyze in the `books-to-read` folder. They must be in epub format.
+5. run the script. This will generate a file called `named_characters.txt` in the current working directory
 ```
 python.exe extract_named_characters.py
 ```
