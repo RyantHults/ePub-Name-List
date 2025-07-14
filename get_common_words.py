@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from collections import Counter
 
 # Load spaCy English model
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('<model_name>')
 
 def extract_text_from_epub(epub_path):
     book = epub.read_epub(epub_path)
